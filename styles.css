@@ -1,0 +1,84 @@
+body {
+  color: #4d4f62;
+  font-family: "Poppins", sans-serif;
+}
+
+main {
+  width: 390px;
+  margin: auto;
+}
+
+.promo > h1 {
+  font-weight: 200;
+  font-size: 30px;
+}
+
+.promo > h2 {
+  font-weight: 600;
+  font-size: 28px;
+}
+
+.promo {
+  text-align: center;
+}
+
+.cards {
+  margin-bottom: 40px;
+  padding: 5px 10px 5px 25px;
+  -webkit-border-before: 5px solid;
+          border-block-start: 5px solid;
+  border-radius: 5px;
+  box-shadow: 5px 5px 20px #dee6f1, -5px 5px 20px #dee6f1;
+}
+
+.cards h3 {
+  font-size: 26px;
+  margin-bottom: 10px;
+  margin-left: 24px;
+}
+
+.cards > p {
+  font-weight: 300;
+  margin-left: 24px;
+}
+
+.icon {
+  display: flex;
+  justify-content: flex-end;
+  margin-top: 35px;
+  margin-bottom: 30px;
+  margin-right: 24px;
+}
+
+.supervisor {
+  border-block-color: #44d3d2;
+}
+
+.team-builder {
+  border-block-color: #ea5454;
+}
+
+.karma {
+  border-block-color: #fcae4a;
+}
+
+.calculator {
+  border-block-color: #549ef2;
+}
+
+@media screen and (min-width: 760px) {
+  main {
+    width: 80%;
+  }
+  .diamond {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .middle {
+    margin: 40px;
+  }
+  .cards {
+    width: 330px;
+  }
+}/*# sourceMappingURL=styles.css.map */
